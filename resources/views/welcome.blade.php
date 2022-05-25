@@ -35,43 +35,43 @@
               <div class="image">
                 <img src="images/megamenu.png" alt="" />
               </div>
-              <ul>
-                <li>
-                  <a href="Testimon"
-                    ><i class="far fa-comments fa-fw"></i>Testimonials</a
-                  >
-                </li>
-                <li>
-                  <a href="#mebres"
-                    ><i class="far fa-user fa-fw"></i>Team Members</a
-                  >
-                </li>
-                
-                <li>
-                  <a href="#How-It-Works"
-                    ><i class="far fa-clipboard fa-fw"></i>How It Works</a
-                  >
-                </li>
-              </ul>
-              <ul>
-                
-                <li>
-                  <a href="#Pricing"
-                    ><i class="fas fa-server fa-fw"></i>Pricing Plans</a
-                  >
-                </li>
-                
-                <li>
-                  <a href="#Stats"
-                    ><i class="far fa-chart-bar fa-fw"></i>Stats</a
-                  >
-                </li>
-                <li>
-                  <a href="Discount"
-                    ><i class="fas fa-percent fa-fw"></i>Request A Discount</a
-                  >
-                </li>
-              </ul>
+            <div class="content">
+                <ul>
+                  <li>
+                    <a href="Testimon"
+                      ><i class="far fa-comments fa-fw"></i>Testimonials</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#mebres"
+                      ><i class="far fa-user fa-fw"></i>Team Members</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#How-It-Works"
+                      ><i class="far fa-clipboard fa-fw"></i>How It Works</a
+                    >
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#Pricing"
+                      ><i class="fas fa-server fa-fw"></i>Pricing Plans</a
+                    >
+                  </li>
+                  
+                  <li>
+                    <a href="#Stats"
+                      ><i class="far fa-chart-bar fa-fw"></i>Stats</a
+                    >
+                  </li>
+                  <li>
+                    <a href="Discount"
+                      ><i class="fas fa-percent fa-fw"></i>Request A Discount</a
+                    >
+                  </li>
+                </ul>
+            </div>
             </div>
           </li>
         </ul>
@@ -124,7 +124,7 @@
       </div>
       <div class="box">
         <i class="fas fa-bullhorn fa-4x"></i>
-        <h3>dfdf</h3>
+        <h3>Post CV</h3>
         <div class="info">
           <a href="#">Details</a>
         </div>
@@ -133,4 +133,9 @@
   </div>
   <!-- End Services -->
   </body>
+  <footer>
+    <div class="footer-content">
+      © 2021 Jobyfy All Right Reserved
+    </div>
+  </footer>
 </html>

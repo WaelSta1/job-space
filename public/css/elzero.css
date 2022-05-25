@@ -43,8 +43,8 @@
     position: relative;
     transition: 1s;
 }
-.special-header>p{
-  margin:0px;
+.special-header > p {
+    margin: 0px;
 }
 .special-header:hover {
     border: 2px solid transparent;
@@ -190,12 +190,11 @@ nav .container .links > li > a:hover::before {
 nav .container .links > li:last-child div.mega-menu {
     display: flex;
     justify-content: space-around;
-    gap: 40px;
+    gap: 30px;
     position: absolute;
     right: 0%;
     top: calc(100% + 50%);
     /* z-index: -1; */
-    border: 1px solid red;
     min-width: 100%;
     background-color: var(--main-background);
     border-bottom: 3px solid var(--main-color);
@@ -204,12 +203,18 @@ nav .container .links > li:last-child div.mega-menu {
     opacity: 0;
     transition: top var(--main-transition), opacity var(--main-transition);
 }
+nav .container .links > li:last-child div.mega-menu .content{
+    display:flex;
+}
 nav .container .links > li:last-child:hover div.mega-menu {
     top: 100%;
     opacity: 1;
     z-index: 100;
 }
 /*Mega menu Link style==================================*/
+nav .container .links > li:last-child div.mega-menu ul {
+    margin-top: 50px;
+}
 nav .container .links > li:last-child div.mega-menu ul > li {
     list-style-type: none;
     border-bottom: 1px solid #e9e6e6;
@@ -331,7 +336,7 @@ div.landing-section div.container div.landing-img img {
 .services {
     position: relative;
     background-color: var(--section-background);
-   
+    margin-bottom: 50px;
 }
 .services .container {
     display: grid;
@@ -353,7 +358,7 @@ div.landing-section div.container div.landing-img img {
     top: -3px;
     background-color: var(--main-color);
     position: absolute;
-    width: 0;
+    width: 0px;
     transition: var(--main-transition);
 }
 .services .box:hover {
@@ -410,3 +415,12 @@ div.landing-section div.container div.landing-img img {
     color: var(--main-color);
 }
 /* End Services */
+/*Start Footer*/
+footer .footer-content {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #191919;
+    color: white;
+    font-size: 23px;
+}
+/*End Footer*/
