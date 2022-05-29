@@ -5,13 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="<?php echo asset('css/app.css')?>" type="text/css"> 
+    <title>Jobify</title>
+    <link rel="stylesheet" href="css/elzero.css" type="text/css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid ps-md-0">
-  <div class="row g-0">
-    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+  <nav>
+    <div class="container">
+      <a class="logo" href="/">Jobify</a>
+      <ul class="links">
+        <li><a>Articles</a></li>
+        <li ><a href="/inscription" class="btn btn-primary" >Sign Up !</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--NavBar end-->
+    <div class="container sign-container ">
+    <div class="image">
+      <img src="images/log-in.png" alt="">
+    </div>
     <div class="col-md-8 col-lg-6">
       <div class="login d-flex align-items-center py-5">
         <div class="container">
@@ -38,7 +50,7 @@
                 </div>
 
                 <div class="d-grid">
-                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Sign in</button>
+                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Sign in </button>
                   <div class="text-center">
                     <a class="small" href="#">Forgot password?</a>
                   </div>
@@ -50,7 +62,7 @@
         </div>
       </div>
     </div>
-  </div>
+
 </div>
 </body>
 </html>

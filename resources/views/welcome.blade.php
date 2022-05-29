@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>work</title>
+    <title>Jobify</title>
     <!--Normalize-->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- stylelink -->
@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+{{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> --}}
   </head>
   <body>
     <!--NavBar-->
@@ -87,8 +87,10 @@
             Where you can find your perfect Job with the International Enterprise,click and work
           </p>
           <form class="my-3">
-            <input type="button" class="btn btn-primary btn-lg " value="Sign In"/>
-            <input type="button" class="btn btn-outline-primary btn-lg" value="Sign Up"/>
+            <a href="/signIn"> 
+               <input type="button" id="primary" " value="Sign In"/></a>
+          
+            <a href="/inscription"><input type="button" id="primary-outline" value="Sign Up"/></a>
           </form>
 
         </div>
@@ -96,7 +98,7 @@
           <img src="images/landing-image.png" alt="" />
         </div>
       </div>
-      <a href="#article" id="bouncing-link"
+      <a href="#services" id="bouncing-link"
         ><i class="fas fa-angle-double-down fa-2x"></i
       ></a>
     </div>
