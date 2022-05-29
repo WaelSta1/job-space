@@ -25,3 +25,6 @@ Route::get('/profile',function(){
 Route::get('/inscription',function(){
     return view('Inscription');
 });
+Route::get('/dashboard',function(){
+    return view('Client/dashboard');
+});
